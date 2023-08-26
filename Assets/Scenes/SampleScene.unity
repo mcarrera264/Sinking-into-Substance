@@ -11237,6 +11237,13 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 0
     followUp: 0
+  - displayText: Yeah, I know it's not... but it's important. I'm really struggling
+      with it.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
   locationMusic: {fileID: 0}
   nextActionTrigger: {fileID: 1718227765}
