@@ -1591,13 +1591,6 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: And you certainly did. This project showcases your potential, Sean.
-      It's clear that when you put your mind to it, you can achieve great things.
-    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
-    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 0
   - displayText: Thanks, Mr. Johnson. I'm glad I could finally deliver the class
       project.
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
@@ -1678,8 +1671,8 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' That''s the spirit! You won''t regret this, Sean. Let''s head
-      to Carlos''s place together. It''s gonna be a blast!'
+  - displayText: That's the spirit! You won't regret this, Sean. Let's head to Carlos's
+      place together. It's gonna be a blast!
     speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
     displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
     displayPosition: 4
@@ -2251,12 +2244,6 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 3
-  - displayText: 'Sean, it''s way past your bedtime! Go to sleep now! '
-    speaker: {fileID: 11400000, guid: 53fb446e5ebdddf44aa8f06b5e8451e0, type: 2}
-    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
-    displayPosition: 0
-    displayDirection: 0
-    followUp: 0
   - displayText: 'Sean, it''s way past your bedtime! Go to sleep now! '
     speaker: {fileID: 11400000, guid: 53fb446e5ebdddf44aa8f06b5e8451e0, type: 2}
     displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
@@ -4884,7 +4871,7 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: '(muttering) Huh, she''s not here yet... Wonder where she is. '
+  - displayText: 'Huh, she''s not here yet... Wonder where she is. '
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
@@ -4903,8 +4890,8 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: (thinking) Maybe I should give her a call... Or maybe I should just
-      head to Carlos' place and see if she's there.
+  - displayText: Maybe I should give her a call... Or maybe I should just head to
+      Carlos' place and see if she's there.
     speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
@@ -4920,32 +4907,38 @@ MonoBehaviour:
       He holds his breath as the phone rings, but there's no answer on the other
       end.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 2
     displayDirection: 0
     followUp: 0
   - displayText: 'Phone *beeps '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 2
     displayDirection: 0
     followUp: 0
   - displayText: 'Phone *beeps '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 2
     displayDirection: 0
     followUp: 0
-  - displayText: "(anxious) Come on, Jacqueline, pick up\u2026"
+  - displayText: "Come on, Jacqueline, pick up\u2026"
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 2
     displayDirection: 0
     followUp: 0
   - displayText: 'Phone *beeps '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Phone *out of signal
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
   - displayText: Where is she? Did she forget about our plan?
@@ -4954,6 +4947,12 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 3
   - displayText: I could really use a dose... Carlos might have something to help
       calm me down.
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
@@ -7776,7 +7775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Friday 25 AUG, Morning | SCHOOL
+  - displayText: Friday 25 AUG, Night | HOME
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
     displayPosition: 0
@@ -7856,7 +7855,7 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: " Tomorrow's a new day. See you then Jacqueline\u2026"
+  - displayText: "Tomorrow's a new day. See you then Jacqueline\u2026"
     speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
@@ -10322,7 +10321,7 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 3
-  - displayText: ' Please be seated, Sean. You''ve done commendable work.  '
+  - displayText: 'Please be seated, Sean. You''ve done commendable work.  '
     speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
     displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
     displayPosition: 2
@@ -10360,9 +10359,9 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: '(softly) I wanted to talk to you about something important, Sean.
-      I''ve noticed that Jacqueline has been absent for a couple of days now. Have
-      you heard from her at all? '
+  - displayText: 'I wanted to talk to you about something important, Sean. I''ve
+      noticed that Jacqueline has been absent for a couple of days now. Have you
+      heard from her at all? '
     speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
     displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
     displayPosition: 3
@@ -10375,16 +10374,9 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  - displayText: No, Mr. Johnson, I haven't heard from her. I've been wondering about
-      her absence too.
-    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
-    displayPosition: 4
-    displayDirection: 0
-    followUp: 0
-  - displayText: '(concerned) She''s been missing classes, the directive is concerned.
-      If you do come across any information or have any way of reaching her, please
-      let me know. '
+  - displayText: 'She''s been missing classes, the directive is concerned. If you
+      do come across any information or have any way of reaching her, please let
+      me know. '
     speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
     displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
     displayPosition: 3
@@ -11683,14 +11675,6 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 1
     followUp: 0
-  - displayText: 'As Sean surrenders to the euphoric atmosphere around him, his worries
-      and inhibitions fade away, allowing him to fully immerse in the unique experience
-      of the evening. '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 21300000, guid: 419dfafd3c0a7784d868e1fc2fdc4a4d, type: 3}
-    displayPosition: 0
-    displayDirection: 1
-    followUp: 0
   - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
@@ -12254,7 +12238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Friday 25 AUG, Morning | SCHOOL
+  - displayText: Friday 25 AUG, Evening | STREET
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
     displayPosition: 0
@@ -12289,8 +12273,8 @@ MonoBehaviour:
     displayPosition: 2
     displayDirection: 1
     followUp: 0
-  - displayText: ' Oh, I get it. Projects can be draining. But hey, I''ve got just
-      the thing for you. Here, take this. It''ll help with the dizziness and fatigue.'
+  - displayText: Oh, I get it. Projects can be draining. But hey, I've got just the
+      thing for you. Here, take this. It'll help with the dizziness and fatigue.
     speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
     displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
     displayPosition: 3
@@ -12350,7 +12334,13 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  - displayText: ' Tomorrow... morning. Got it. '
+  - displayText: 'Tomorrow... morning. Got it. '
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 4
@@ -12791,7 +12781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+  m_Color: {r: 0.09411766, g: 0.08235294, b: 0.12941177, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13055,7 +13045,7 @@ MonoBehaviour:
     displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
     displayPosition: 0
     displayDirection: 0
-    followUp: 1
+    followUp: 0
   - displayText: Hey, Sean! Fancy meeting you here.
     speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
     displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
@@ -13237,7 +13227,7 @@ MonoBehaviour:
     displayPosition: 2
     displayDirection: 1
     followUp: 0
-  - displayText: ' Jacqueline watches Sean''s reaction, nodding approvingly. '
+  - displayText: 'Jacqueline watches Sean''s reaction, nodding approvingly. '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
     displayPosition: 4
@@ -14737,13 +14727,6 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: And you certainly did. This project showcases your potential, Sean.
-      It's clear that when you put your mind to it, you can achieve great things.
-    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
-    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 0
   - displayText: Thanks, Mr. Johnson. I'm glad I could finally deliver the class
       project.
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
@@ -15965,12 +15948,6 @@ MonoBehaviour:
     followUp: 0
   - displayText: See, Sean? I told you it was great here!
     speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
-    displayPosition: 2
-    displayDirection: 1
-    followUp: 0
-  - displayText: Jacqueline is clearly having a good time.
-    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
     displayPosition: 2
     displayDirection: 1
@@ -17407,7 +17384,7 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 1
     followUp: 2
-  - displayText: ugh I hit my head kinda hard. heh I never thought I would be looking
+  - displayText: Ugh I hit my head kinda hard. heh I never thought I would be looking
       up to Jacqueline; she's so much taller than me on the coach.
     speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 0}
@@ -19912,66 +19889,33 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: Oh, absolutely! It's like a little bit of magic in a tiny package.
-    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
+  - displayText: For once, I can just let go and enjoy the moment.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: AH AAAH AH AH AH!
-    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 3
-  - displayText: AH AH HAH A HAHA !
-    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 3
-  - displayText: AAAAH AHA HA HA !
-    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 3
-  - displayText: HAHA HA HAA HAHA !
-    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 3
-  - displayText: HAH AHA HAE HE HE HA !
-    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 1
-  - displayText: HAHAH AH HAAAHAAAA !
-    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
-    displayPosition: 3
-    displayDirection: 1
-    followUp: 3
-  - displayText: 
+  - displayText: As Sean lays down, the room is illuminated by the soft glow of the
+      moonlight, casting a serene ambiance over the space.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 3
-  - displayText: 'Tonight''s all about embracing the moment and letting go of worries. '
-    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
-    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
-    displayPosition: 3
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: And right now, that magic powder is a part of the ride...
+  - displayText: Everything feels so different tonight. I guess sometimes all you
+      need is a break from the routine.
     speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
-    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
-    displayPosition: 3
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 0
     displayDirection: 0
-    followUp: 1
+    followUp: 0
+  - displayText: Sean's mind is free from the usual worries, and he drift into a
+      peaceful sleep, the events of the night bringing a sense of calm and tranquility.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: b854a9098da90c444b7ef2c07584e4dc, type: 3}
   locationMusic: {fileID: 0}
   nextActionTrigger: {fileID: 829876624}
@@ -21073,7 +21017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: ' Carlos chuckles, finding Sean''s humor amusing. '
+  - displayText: 'Carlos chuckles, finding Sean''s humor amusing. '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
     displayPosition: 4
@@ -21086,13 +21030,13 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  - displayText: " Touch\xE9. Maybe a little break won't hurt. "
+  - displayText: "Touch\xE9. Maybe a little break won't hurt. "
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  - displayText: ' Carlos smirks, seemingly intrigued. '
+  - displayText: 'Carlos smirks, seemingly intrigued. '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
     displayPosition: 4
@@ -21295,7 +21239,7 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: "Sure\u2013"
+  - displayText: Sure
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
     displayPosition: 3
@@ -21753,6 +21697,12 @@ MonoBehaviour:
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
+    followUp: 3
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
     followUp: 2
   - displayText: '*Phone Buzzes*'
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
@@ -21760,20 +21710,20 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' Sean''s phone buzzes with a notification, further distracting
-      him. He picks up the phone and reads a message from a friend. '
+  - displayText: 'Sean''s phone buzzes with a notification, further distracting him.
+      He picks up the phone and reads a message from a friend. '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
     displayPosition: 2
     displayDirection: 0
     followUp: 0
-  - displayText: '[MESSAGE]: Hey, just checking in. How''s the project going?'
+  - displayText: 'MESSAGE: Hey, just checking in. How''s the project going?'
     speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
     displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
     displayPosition: 2
     displayDirection: 0
     followUp: 0
-  - displayText: ' Not great. I need to focus.'
+  - displayText: Not great. I need to focus.
     speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 21300000, guid: b0990c0280d9f2e488c40e9bed188251, type: 3}
     displayPosition: 0
@@ -22519,13 +22469,6 @@ MonoBehaviour:
       I wanted to prove that I can do it.
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: 130c5faae24857548859722248704944, type: 3}
-    displayPosition: 3
-    displayDirection: 0
-    followUp: 0
-  - displayText: And you certainly did. This project showcases your potential, Sean.
-      It's clear that when you put your mind to it, you can achieve great things.
-    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
-    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
     displayPosition: 3
     displayDirection: 0
     followUp: 0
@@ -24103,7 +24046,7 @@ MonoBehaviour:
     displayPosition: 1
     displayDirection: 1
     followUp: 3
-  - displayText: "\u2013 I\u2019ll be there."
+  - displayText: "I\u2019ll be there."
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
     displayPosition: 1
@@ -25139,13 +25082,6 @@ MonoBehaviour:
   - displayText: Magic powder? Is that even safe?
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
-    displayPosition: 4
-    displayDirection: 0
-    followUp: 0
-  - displayText: Don't worry, man. It's all good. Everyone uses it to get things
-      done around here.
-    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
-    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
     displayPosition: 4
     displayDirection: 0
     followUp: 0
