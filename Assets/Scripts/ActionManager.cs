@@ -91,7 +91,7 @@ public class ActionManager : MonoBehaviour
 
     public void Decide()
     {
-        bbc.barText.text = "";
+        //bbc.barText.text = "";
         actionTrigger.decisionButtons.SetActive(true);
 
     }
