@@ -716,20 +716,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Morning | School
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: Man, normally the only thing that brings me dead bodies are the
+      cats. You look tired as hell.
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: "Haha yeah, I just had a little trouble sleeping but I wouldn\u2019t
+      miss being here for the world. "
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
+    displayPosition: 3
     displayDirection: 0
-    followUp: 2
-  background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
-  locationMusic: {fileID: 8300000, guid: b0dd3771f0beaf247884ed57ff2ce7e6, type: 3}
+    followUp: 0
+  - displayText: "That\u2019s the spirit here, take some Powder. "
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: SNNORT, hehe thanks bro I needed that. By the way, is Jaqueline
+      here?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Wow I can tell. Yeah she is by the snacks good luck champ.
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 4
+    displayDirection: 1
+    followUp: 0
+  - displayText: 'Hey girl, why you staring at that food when you could be getting
+      high? '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: "You\u2019re right. "
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: (They both take in inhale of a blunt together)
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 387c6bd612e6ce547a296068417275cf, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 1
+  background: {fileID: 21300000, guid: b854a9098da90c444b7ef2c07584e4dc, type: 3}
+  locationMusic: {fileID: 8300000, guid: 6d452517f8fa76147b8896a230d72b04, type: 3}
   nextActionTrigger: {fileID: 1673331191}
   decisionButtons: {fileID: 0}
 --- !u!224 &112549457
@@ -8461,19 +8501,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Night | Home
+  - displayText: THUD
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 3
+  - displayText: ugh I hit my head kinda hard. heh I never thought I would be looking
+      up to Jacqueline; she's so much taller than me on the coach.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: ..COUGH, Cough, gurgle
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: (Sean winces)
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
-    followUp: 2
-  background: {fileID: 21300000, guid: cb5dff23af5417e43a6847dc2d1cdc1f, type: 3}
+    followUp: 3
+  - displayText: "Hey you\u2019re sounding kinda weird up there are you okay Jackie?"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: (no answer)
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 3
+  - displayText: Drifting off once again.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 1
+  background: {fileID: 21300000, guid: aa34e9fc1c16a2f46b02d38c0ec8d804, type: 3}
   locationMusic: {fileID: 8300000, guid: a2564dd2bc032064fae881f4d5de812d, type: 3}
   nextActionTrigger: {fileID: 1673331191}
   decisionButtons: {fileID: 0}
@@ -10188,19 +10259,107 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Evening | Street
+  - displayText: the bustling of the party continues but Jaqueline and Sean are just
+      talking to each other while laying on the couch, back to back
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 1
+  - displayText: an what are you doing here of all people?
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: "What do you mean? I\u2019m here with my best friend in the world."
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
     displayDirection: 0
-    followUp: 2
-  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
+    followUp: 0
+  - displayText: "Well beyond me. Don\u2019t you have any aspirations?"
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 387c6bd612e6ce547a296068417275cf, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: "uuugh I don\u2019t follow???"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 387c6bd612e6ce547a296068417275cf, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'God. What do you want to do with your life! '
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: "I haven\u2019t really thought about it. I just wanna be high with
+      you."
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: "You\u2019re hopeless. My life is going nowhere. This is all I got
+      and all I will ever have. You actually got a shot at life."
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Well so do you. '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: "(no)(...you don\u2019t know anything about my family) can you just
+      pass me some more powder. You\u2019re getting me down."
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: "Sure\u2013"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 3
+  - displayText: (Sean's arms barely nudges)
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: What's the problem? Hurry up.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 387c6bd612e6ce547a296068417275cf, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: "I\u2019m sorry I think I\u2019m losing it."
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: (JACQUELINE tries to move)
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: hah same here, wake me up in the morning will ya?
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 1
+  background: {fileID: 21300000, guid: 060cfa4b304b89a4da8d820167f9297f, type: 3}
   locationMusic: {fileID: 8300000, guid: e65be77f0315a6c4a8bb03639b6d5052, type: 3}
   nextActionTrigger: {fileID: 1389720550}
   decisionButtons: {fileID: 0}
@@ -11585,7 +11744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActionTrigger: {fileID: 1049179205}
+  currentActionTrigger: {fileID: 112549456}
   actionManager: {fileID: 1950804632}
   bottomBar: {fileID: 1414833815}
   audioManager: {fileID: 328975009}
