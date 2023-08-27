@@ -1023,17 +1023,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Well, you see, Mr. Johnson, my laptop crashed last night, and I
-      lost all my work.
+  - displayText: Alright, I guess... I'll give it a shot.
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
+  - displayText: ' That''s the spirit! You won''t regret this, Sean. Let''s head
+      to Carlos''s place together. It''s gonna be a blast!'
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Wait, Jacqueline. There''s something I need to tell you. I didn''t
+      get the project done. The teacher''s really upset with me. '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 4
+    displayDirection: 1
+    followUp: 0
+  - displayText: It's okay, Sean. We'll figure it out. And hey, maybe this magic
+      powder will help you focus on it later. For now, let's just have some fun.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 4
+    displayDirection: 1
+    followUp: 0
+  - displayText: Sean nods in relief
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 4
+    displayDirection: 1
+    followUp: 0
+  - displayText: Okay, Jacqueline. Let's do it.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 4
+    displayDirection: 1
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 0}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 5
+    displayDirection: 0
+    followUp: 1
+  background: {fileID: 21300000, guid: 819b6bfe13a142a4e977e7b5020dd9db, type: 3}
   locationMusic: {fileID: 0}
-  nextActionTrigger: {fileID: 1301299344}
-  decisionButtons: {fileID: 1241821834}
+  nextActionTrigger: {fileID: 1241821835}
+  decisionButtons: {fileID: 0}
 --- !u!1 &171133724
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,7 +3295,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6421,16 +6459,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: I've been dealing with some personal stuff, Mr. Johnson.
+  - displayText: I have a class project, Jacqueline. I am...
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
-    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 3
+  - displayText: Come on, Sean! You've been stressing about that project for days.
+      This is the perfect way to take your mind off it. Trust me, it's better than
+      overthinking.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
+  - displayText: Jacqueline playfully starts to pull on Sean's arm, trying to get
+      him to come along.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Hey, you know you can't really move me, right?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Jacqueline laughs and continues to pull, while Sean follows along
+      with the joke.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Alright, alright. I'll make it easy for you.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Sean starts walking alongside Jacqueline, a sense of relaxation
+      and camaraderie building between them.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 5
+    displayDirection: 1
+    followUp: 0
+  - displayText: Lead the way, then.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 5
+    displayDirection: 1
+    followUp: 0
+  - displayText: As Sean and Jacqueline head off together, their laughter and easy
+      banter fill the air, their friendship guiding them down a new path.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 5
+    displayDirection: 1
+    followUp: 1
+  background: {fileID: 21300000, guid: 819b6bfe13a142a4e977e7b5020dd9db, type: 3}
   locationMusic: {fileID: 0}
-  nextActionTrigger: {fileID: 1301299344}
-  decisionButtons: {fileID: 1241821834}
+  nextActionTrigger: {fileID: 1241821835}
+  decisionButtons: {fileID: 0}
 --- !u!1 &979126563
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,34 +6828,124 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - displayText: The morning sun casts a warm glow over the quiet streets as Sean
+      walks
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
   - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 2
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+  - displayText: (whispering to self) I can't face the teacher like this... Maybe
+      I should just skip today.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
     displaySprite: {fileID: 0}
-    displayPosition: 0
-    displayDirection: 0
-    followUp: 2
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
+    displayPosition: 1
+    displayDirection: 0
+    followUp: 1
+  - displayText: Hey, Sean! Fancy meeting you here.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 2
     displayDirection: 0
     followUp: 0
-  background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
-  locationMusic: {fileID: 8300000, guid: b0dd3771f0beaf247884ed57ff2ce7e6, type: 3}
-  nextActionTrigger: {fileID: 1241821835}
-  decisionButtons: {fileID: 0}
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 2
+    displayDirection: 0
+    followUp: 3
+  - displayText: 'Oh, hey Jacqueline. What are you doing out here? '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 2
+    displayDirection: 0
+    followUp: 0
+  - displayText: Skipping class, obviously! Life's too short to be cooped up in school
+      all the time.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 2
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 2
+    displayDirection: 0
+    followUp: 3
+  - displayText: . . You too? Skipping class?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Oh, you have no idea how much better I feel since I started taking
+      that magic powder Carlos gave me. It's like a whole new world, Sean!
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Magic powder? Seriously?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 021079d8f2cb30f45af3aab0937bf05c, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Yeah, it's amazing! Gives you energy, makes everything seem brighter.
+      You should try it, Sean. Trust me.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: ' Carlos, right? The guy from yesterday?'
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Yep, that's him. Don't worry, he's cool.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 0}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 3
+  - displayText: I don't know, Jacqueline. It's just... I'm not sure about this.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Come on, Sean. We've been friends for so long, remember? We're just
+      looking out for each other. You won't regret it, I promise.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 4
+  background: {fileID: 21300000, guid: 819b6bfe13a142a4e977e7b5020dd9db, type: 3}
+  locationMusic: {fileID: 8300000, guid: 165d0b2f985640742976db55dd15c3eb, type: 3}
+  nextActionTrigger: {fileID: 0}
+  decisionButtons: {fileID: 1049179204}
 --- !u!224 &1049179206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9744,7 +9926,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 30
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10444,7 +10626,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 30
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11416,7 +11598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActionTrigger: {fileID: 1301299344}
+  currentActionTrigger: {fileID: 972913834}
   actionManager: {fileID: 1950804632}
   bottomBar: {fileID: 1414833815}
   audioManager: {fileID: 328975009}
