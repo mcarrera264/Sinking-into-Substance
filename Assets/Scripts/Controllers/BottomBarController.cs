@@ -119,8 +119,6 @@ public class BottomBarController : MonoBehaviour
                 audioManager.PlayRandomClick();
             }
 
-
-
             yield return new WaitForSeconds(drawSpeed/100);
 
             if(++wordIndex == text.Length)

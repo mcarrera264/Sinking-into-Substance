@@ -651,7 +651,7 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 1
     followUp: 0
-  - displayText: 
+  - displayText: ' '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: d02f7a0041b59a147babdc5cd164fc35, type: 3}
     displayPosition: 0
@@ -974,6 +974,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164152400}
   m_CullTransparentMesh: 1
+--- !u!1 &166274866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166274867}
+  - component: {fileID: 166274868}
+  m_Layer: 5
+  m_Name: D3Morning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &166274867
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166274866}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049179206}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &166274868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166274866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acee326c1e5e51d4d8a9b756ac789ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - displayText: Well, you see, Mr. Johnson, my laptop crashed last night, and I
+      lost all my work.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
+  locationMusic: {fileID: 0}
+  nextActionTrigger: {fileID: 1301299344}
+  decisionButtons: {fileID: 1241821834}
 --- !u!1 &171133724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,6 +5833,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895551629}
   m_CullTransparentMesh: 1
+--- !u!1 &931485009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 931485010}
+  - component: {fileID: 931485011}
+  m_Layer: 5
+  m_Name: DeEvening
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &931485010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931485009}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1241821836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &931485011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931485009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acee326c1e5e51d4d8a9b756ac789ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - displayText: Well, you see, Mr. Johnson, my laptop crashed last night, and I
+      lost all my work.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  background: {fileID: 21300000, guid: 060cfa4b304b89a4da8d820167f9297f, type: 3}
+  locationMusic: {fileID: 0}
+  nextActionTrigger: {fileID: 1301299344}
+  decisionButtons: {fileID: 1241821834}
 --- !u!1 &933543603
 GameObject:
   m_ObjectHideFlags: 0
@@ -6252,6 +6372,65 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &972913832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972913833}
+  - component: {fileID: 972913834}
+  m_Layer: 5
+  m_Name: D3Morning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &972913833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972913832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049179206}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &972913834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972913832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acee326c1e5e51d4d8a9b756ac789ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - displayText: I've been dealing with some personal stuff, Mr. Johnson.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
+  locationMusic: {fileID: 0}
+  nextActionTrigger: {fileID: 1301299344}
+  decisionButtons: {fileID: 1241821834}
 --- !u!1 &979126563
 GameObject:
   m_ObjectHideFlags: 0
@@ -6569,6 +6748,18 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 2
+  - displayText: ' '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: ' '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
   locationMusic: {fileID: 8300000, guid: b0dd3771f0beaf247884ed57ff2ce7e6, type: 3}
   nextActionTrigger: {fileID: 1241821835}
@@ -6583,7 +6774,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 166274867}
+  - {fileID: 972913833}
   m_Father: {fileID: 690723136}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6592,6 +6785,65 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1053631929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1053631930}
+  - component: {fileID: 1053631931}
+  m_Layer: 5
+  m_Name: DeEvening
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1053631930
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053631929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1241821836}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1053631931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053631929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acee326c1e5e51d4d8a9b756ac789ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - displayText: I've been dealing with some personal stuff, Mr. Johnson.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  background: {fileID: 21300000, guid: 060cfa4b304b89a4da8d820167f9297f, type: 3}
+  locationMusic: {fileID: 0}
+  nextActionTrigger: {fileID: 1301299344}
+  decisionButtons: {fileID: 1241821834}
 --- !u!1 &1108524845
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,7 +7673,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 931485010}
+  - {fileID: 1053631930}
   m_Father: {fileID: 690723136}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9730,7 +9984,7 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 0
     followUp: 0
-  background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
+  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
   locationMusic: {fileID: 0}
   nextActionTrigger: {fileID: 1718227765}
   decisionButtons: {fileID: 0}
@@ -10638,7 +10892,7 @@ MonoBehaviour:
     displayPosition: 3
     displayDirection: 1
     followUp: 0
-  - displayText: 
+  - displayText: ' '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: d02f7a0041b59a147babdc5cd164fc35, type: 3}
     displayPosition: 0
@@ -10884,7 +11138,7 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 1
     followUp: 0
-  - displayText: 
+  - displayText: ' '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: d02f7a0041b59a147babdc5cd164fc35, type: 3}
     displayPosition: 0
@@ -11162,7 +11416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActionTrigger: {fileID: 2046691361}
+  currentActionTrigger: {fileID: 1301299344}
   actionManager: {fileID: 1950804632}
   bottomBar: {fileID: 1414833815}
   audioManager: {fileID: 328975009}
@@ -11237,14 +11491,52 @@ MonoBehaviour:
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  - displayText: Yeah, I know it's not... but it's important. I'm really struggling
-      with it.
+  - displayText: 'Man, you''re missing out. You know what? I''ve got something that
+      might help you out. '
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Carlos reaches into his pocket and takes out a small packet.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'What''s that? '
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Magic powder. It''ll give you the focus you need for your project,
+      no problem. '
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 3
+  - displayText: Magic powder? Is that even safe?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Don't worry, man. It's all good. Everyone uses it to get things
+      done around here.
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
     displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
     displayPosition: 4
     displayDirection: 0
     followUp: 0
-  background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
+  background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
   locationMusic: {fileID: 0}
   nextActionTrigger: {fileID: 1718227765}
   decisionButtons: {fileID: 0}
