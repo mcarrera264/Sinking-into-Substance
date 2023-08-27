@@ -2332,20 +2332,104 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Morning | School
+  - displayText: Sean arrives at the designated meeting spot, however, Jacqueline
+      is not there. A flicker of concern dances in his thoughts as he scans the surroundings.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+  - displayText: '(muttering) Huh, she''s not here yet... Wonder where she is. '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 2
-  background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
-  locationMusic: {fileID: 8300000, guid: b0dd3771f0beaf247884ed57ff2ce7e6, type: 3}
+  - displayText: 30 min later
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 1
+  - displayText: The passing minutes add weight to the silence, and Sean's gaze shifts
+      to the sidewalk.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: (thinking) Maybe I should give her a call... Or maybe I should just
+      head to Carlos' place and see if she's there.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Sean quickly takes out his phone and dials Jacqueline's number.
+      He holds his breath as the phone rings, but there's no answer on the other
+      end.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Phone *beeps '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Phone *beeps '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: "(anxious) Come on, Jacqueline, pick up\u2026"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Phone *beeps '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Where is she? Did she forget about our plan?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: I could really use a dose... Carlos might have something to help
+      calm me down.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Well, I guess I'll head to the crackhouse. Maybe she's already there.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Maybe not, anyway I could use a dose right now.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  background: {fileID: 21300000, guid: 819b6bfe13a142a4e977e7b5020dd9db, type: 3}
+  locationMusic: {fileID: 8300000, guid: 165d0b2f985640742976db55dd15c3eb, type: 3}
   nextActionTrigger: {fileID: 1840453700}
   decisionButtons: {fileID: 0}
 --- !u!224 &447092493
@@ -10613,18 +10697,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Night | Home
+  - displayText: "It\u2019s already 1AM Jesus. I guess time flies when you're high
+      with the guys. haha oh I\u2019m tired."
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: '(Sean gets in bed) . . . '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 3
+  - displayText: (shift, grunt, roll, groan, shift, roll, grunt, turn,. . .)
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: (Sean changed sleeping positions at least 20 times)
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
-    followUp: 2
+    followUp: 0
+  - displayText: 'ugh I wish I had something to take the edge off.A some magic powder,
+      a blunt, or even some F-ing sage. '
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: "(Sean got home at 1 but he didn\u2019t fall asleep until he could
+      see rays of light entering his room) "
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: cb5dff23af5417e43a6847dc2d1cdc1f, type: 3}
   locationMusic: {fileID: 8300000, guid: a2564dd2bc032064fae881f4d5de812d, type: 3}
   nextActionTrigger: {fileID: 112549456}
@@ -11342,18 +11453,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Evening | Street
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: You won't believe what happened. Jacqueline was here last night,
+      looking like a lost soul. She went home to rest though
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: Jacqueline was here? Is she okay?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 3
     displayDirection: 0
-    followUp: 2
+    followUp: 0
+  - displayText: She'll be fine. Don't worry too much.
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: 419dfafd3c0a7784d868e1fc2fdc4a4d, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: here this should help you relax.
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: 419dfafd3c0a7784d868e1fc2fdc4a4d, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'Well, go on try it. '
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: cc86bfd4290ef6547b2f2bac1e8cc708, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Huuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuf, (exhales) oh my god
+      I think I need to lie down.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 'WOW man you did almost that whole blunt in one breath! You should
+      come to my weekend party. '
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Will Jaqueline be there?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: 'You know it. '
+    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 1
+    displayDirection: 1
+    followUp: 3
+  - displayText: "\u2013 I\u2019ll be there."
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
+    displayPosition: 1
+    displayDirection: 1
+    followUp: 0
   background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
   locationMusic: {fileID: 8300000, guid: e65be77f0315a6c4a8bb03639b6d5052, type: 3}
   nextActionTrigger: {fileID: 1735400854}
