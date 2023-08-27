@@ -1774,12 +1774,6 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: 'Sean, it''s way past your bedtime! Go to sleep now! '
-    speaker: {fileID: 11400000, guid: 53fb446e5ebdddf44aa8f06b5e8451e0, type: 2}
-    displaySprite: {fileID: 21300000, guid: 62ecb4a6f28b8144aa228ac1c967a3b6, type: 3}
-    displayPosition: 0
-    displayDirection: 0
-    followUp: 0
   - displayText: Sean jumps in surprise, knocking over the chair and sending the
       packet of powder flying across the room.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
@@ -7949,14 +7943,6 @@ MonoBehaviour:
     displayPosition: 0
     displayDirection: 1
     followUp: 0
-  - displayText: 'As Sean surrenders to the euphoric atmosphere around him, his worries
-      and inhibitions fade away, allowing him to fully immerse in the unique experience
-      of the evening. '
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 21300000, guid: 419dfafd3c0a7784d868e1fc2fdc4a4d, type: 3}
-    displayPosition: 0
-    displayDirection: 1
-    followUp: 0
   - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
@@ -11506,24 +11492,12 @@ MonoBehaviour:
     displayPosition: 5
     displayDirection: 0
     followUp: 0
-  - displayText: 'Sean, you made it! Come join us! '
-    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
-    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
-    displayPosition: 5
-    displayDirection: 0
-    followUp: 0
   - displayText: 
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
     displayPosition: 0
     displayDirection: 0
     followUp: 3
-  - displayText: What's up, man? I'm Carlos. You're Jacqueline's buddy, right?
-    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
-    displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
-    displayPosition: 4
-    displayDirection: 0
-    followUp: 0
   - displayText: What's up, man? I'm Carlos. You're Jacqueline's buddy, right?
     speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
     displaySprite: {fileID: 21300000, guid: b676d2baf6b7eda4e8cd9efb910ddd21, type: 3}
@@ -16941,13 +16915,6 @@ MonoBehaviour:
   - displayText: Magic powder? Is that even safe?
     speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
     displaySprite: {fileID: 21300000, guid: 9c0c3da88a031e64480472e05aeb96f1, type: 3}
-    displayPosition: 4
-    displayDirection: 0
-    followUp: 0
-  - displayText: Don't worry, man. It's all good. Everyone uses it to get things
-      done around here.
-    speaker: {fileID: 11400000, guid: d4af7a4ebd71ee247b33902e038c431b, type: 2}
-    displaySprite: {fileID: 21300000, guid: f89dcc6b515aea04a901b22335b78281, type: 3}
     displayPosition: 4
     displayDirection: 0
     followUp: 0
