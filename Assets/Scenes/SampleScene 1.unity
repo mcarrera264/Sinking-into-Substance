@@ -3845,18 +3845,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Night | Home
+  - displayText: Sean enters his home, his steps heavy and movements sluggish. The
+      daze from past events hangs over him like a cloud.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: This feeling... it's gotta be the MAGIC POWDER. I mean, it's been
+      working for me so far. Why wouldn't it now?
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: The substance Jacqueline gave me... she swears by it. Maybe it'll
+      help me have an easier sleep.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Can't hurt to try, right?
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Sean's hand hovers over the substance for a moment, caught in a
+      tense decision-making process.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
-    followUp: 2
+    followUp: 0
+  - displayText: In a moment of clarity, Sean decides to take the substance.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: I'm doing this. Jacqueline said it worked on her, and if this helps,
+      then I'm all in.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Sean takes the substance, feeling a sense of confidence in his decision.
+      his thoughts shift to Jacqueline, wondering how she's doing and if she's facing
+      similar challenges.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: "Ah\u2026 yeah\u2026"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: Sean lies down while peace finally catches up with him. As he closes
+      his eyes, his last thoughts drift toward his friend.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
+  - displayText: " Tomorrow's a new day. See you then Jacqueline\u2026"
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 0
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: cb5dff23af5417e43a6847dc2d1cdc1f, type: 3}
   locationMusic: {fileID: 8300000, guid: a2564dd2bc032064fae881f4d5de812d, type: 3}
   nextActionTrigger: {fileID: 447092492}
@@ -5620,18 +5682,123 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Morning | School
-    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+  - displayText: ' Good morning, everyone. Before we begin today''s lesson, I''d
+      like to acknowledge one of our students. Sean, could you please stand up?'
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: 130c5faae24857548859722248704944, type: 3}
+    displayPosition: 3
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: Sean stands up, feeling mentally stunned and caught off guard by
+      the request, he almost loses his balance.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
-    displaySprite: {fileID: 0}
-    displayPosition: 0
+    displaySprite: {fileID: 21300000, guid: 130c5faae24857548859722248704944, type: 3}
+    displayPosition: 3
     displayDirection: 0
+    followUp: 0
+  - displayText: 'I''m pleased to share that Sean has turned in a remarkably well-done
+      class project. It''s evident that a significant amount of effort and dedication
+      went into its creation. Congratulations, Sean. '
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: 130c5faae24857548859722248704944, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 130c5faae24857548859722248704944, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 3
+  - displayText: ' Please be seated, Sean. You''ve done commendable work.  '
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: Guess I had a little fun yesterday and I am still exhausted.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: Also Sean, could you please stay behind after class? I'd like to
+      have a quick word with you.yesterday and I am still exhausted.
+    speaker: {fileID: 11400000, guid: 194c3fd3b7aa12546a67bffdadcc5ecb, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: 'Sean, taken aback by the request, nods in response. The teacher''s
+      gaze returns to the front of the class as he begins the lesson. '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
+    displayPosition: 2
+    displayDirection: 1
     followUp: 2
+  - displayText: 
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 1
+  - displayText: The teacher approaches, his expression a mixture of warmth and concern.
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: '(softly) I wanted to talk to you about something important, Sean.
+      I''ve noticed that Jacqueline has been absent for a couple of days now. Have
+      you heard from her at all? '
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: No, Mr. Johnson, I haven't heard from her. I've been wondering about
+      her absence too.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: No, Mr. Johnson, I haven't heard from her. I've been wondering about
+      her absence too.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: '(concerned) She''s been missing classes, the directive is concerned.
+      If you do come across any information or have any way of reaching her, please
+      let me know. '
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Of course, I'll do my best to find out if something's wrong. I hope
+      she's okay.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: Thank you, Sean. I appreciate your help. If you hear anything, please
+      don't hesitate to come and talk to me.
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: 1bee42530c4ab5e4f8f1d894092d2665, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
+  - displayText: You can head out now. And, by the way, your project was quite impressive.
+      Keep up the good work.
+    speaker: {fileID: 11400000, guid: 2a07edb4c956c8a44a2b30a1592da94f, type: 2}
+    displaySprite: {fileID: 21300000, guid: a2a5144f9f1fae942b33a677da13ca58, type: 3}
+    displayPosition: 3
+    displayDirection: 0
+    followUp: 0
   background: {fileID: 21300000, guid: 1c6577ea7723be14981d3aee7b37d566, type: 3}
   locationMusic: {fileID: 8300000, guid: b0dd3771f0beaf247884ed57ff2ce7e6, type: 3}
   nextActionTrigger: {fileID: 965034755}
@@ -6499,18 +6666,96 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - displayText: Tuesday 22 AUG, Evening | Street
+  - displayText: 'Sean, feeling a bit dizzy and mentally drained, encounters Jacqueline
+      who appears to be in a hurry. Jacqueline''s energy contrasts with Sean''s current
+      state as she approaches him. '
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
     displayPosition: 0
     displayDirection: 0
     followUp: 0
-  - displayText: ' '
+  - displayText: Hey, Sean! It is unbelievable how awesome yesterday was at Carlos'
+      place. You should totally come again today!
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 8bdce796695aaca499b613255b5401dc, type: 3}
+    displayPosition: 1
+    displayDirection: 1
+    followUp: 0
+  - displayText: It was indeed awesome, Jacqueline. I'd love to join, but I'm not
+      feeling too well right now. I think I need some rest. The project has been
+      taking a toll on me.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
+    displayPosition: 2
+    displayDirection: 1
+    followUp: 0
+  - displayText: ' Oh, I get it. Projects can be draining. But hey, I''ve got just
+      the thing for you. Here, take this. It''ll help with the dizziness and fatigue.'
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: db1f7ad008415514ca4eb4da929e66f4, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: Jacqueline reaches into her bag and pulls out a small container
+      with a substance.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: cc86bfd4290ef6547b2f2bac1e8cc708, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: What's that?
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: cc86bfd4290ef6547b2f2bac1e8cc708, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: Just a little something to help with those symptoms. Trust me, it
+      has worked wonders for me.
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 719b0cd3222602a4ca5e57828c20027a, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: I appreciate it, Jacqueline. But I think I'll pass for now. I just
+      need some rest.
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: 'Okay, no pressure. You know where to find me if you change your
+      mind. '
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 387c6bd612e6ce547a296068417275cf, type: 3}
+    displayPosition: 3
+    displayDirection: 1
+    followUp: 0
+  - displayText: Gotta go now, but seriously, take it. Let's keep the conversation
+      tomorrow morning, on this very street, okay?
+    speaker: {fileID: 11400000, guid: e7a9979051da79f4e8a018bddcd6eed1, type: 2}
+    displaySprite: {fileID: 21300000, guid: 6df0a0a442dd7084bb1c0a6821fdcf27, type: 3}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: "Jacqueline, about Mr.Johnson\u2026"
+    speaker: {fileID: 11400000, guid: 6ca39ae4fdf234646ab6bc22aa76e6a4, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 0
+  - displayText: Before Sean can finish speaking, Jacqueline is already on her way,
+      her energetic pace leaving him slightly taken aback.
     speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
     displaySprite: {fileID: 0}
-    displayPosition: 0
+    displayPosition: 4
     displayDirection: 0
-    followUp: 2
+    followUp: 0
+  - displayText: ' Tomorrow... morning. Got it. '
+    speaker: {fileID: 11400000, guid: 10d743976714efc48939ae91989ed2ad, type: 2}
+    displaySprite: {fileID: 0}
+    displayPosition: 4
+    displayDirection: 0
+    followUp: 1
   background: {fileID: 21300000, guid: 7103e76adfd5f31408a673bea42c2197, type: 3}
   locationMusic: {fileID: 8300000, guid: e65be77f0315a6c4a8bb03639b6d5052, type: 3}
   nextActionTrigger: {fileID: 614516339}
